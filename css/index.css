@@ -1,0 +1,250 @@
+html {
+	overflow-x: hidden;
+}
+body {
+	margin: 0px;
+}
+.hh {
+   font-family: Arial, Helvetica, sans-serif;
+   padding-left: 10px;
+   color: black;
+   margin-top: 0;
+   border: none;
+   width: 100%;
+   background-color: white;
+   font-size: 30px;
+}
+.hh a{
+   color: black;
+   text-decoration: none;
+}
+.hh a:hover{
+    color: skyblue;
+    margin-top: 0;
+}
+.h {
+	width: 100%;
+}
+form {
+	position: relative;
+	width: 200px;
+	margin: 0 auto;
+}
+input, button {
+	outline: none;
+	background: transparent;
+}
+input {
+	color: grey;
+	width: 100%;
+	height: 42px;
+	padding-left: 15px;
+	border: 3px solid DeepSkyBlue;
+	background-color: white;
+}
+
+.poisk {
+	border: none;
+	height: 42px;
+	width: 42px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-right: -20px;
+	margin-top: 3px;
+	cursor: pointer;
+}
+.poisk:before {
+	content: "\f002";
+	font-family: FontAwesome;
+	font-size: 16px;
+	color: Gainsboro;
+}
+input:focus {
+	border-color: cyan;
+}
+.hh{
+	background-color: ghostwhite;
+	box-shadow: 4px 5px 2px 2px gainsboro;
+}
+.tuda-suda {
+	border: none;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	align-items: center;
+	position: relative;
+}
+.tuda-suda:before {
+	font-family: FontAwesome;
+	font-size: 16px;
+	color: blue;
+}
+.td {
+	text-align: left;
+	position: relative;
+}
+.tdd {
+	display: flex;
+}
+.tdd div {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	margin-left: 10px;
+}
+.tdd input {
+	width: 10%;
+}
+.gorod {
+	display: flex;
+}
+.gorod div {
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+.gorod input {
+	width: 200px;
+}
+.data {
+	display: flex;
+}
+.data div {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	margin-left: 10px;
+}
+.data input {
+	width: 120px;
+}
+.bilet {
+	margin-left: 325px;
+	margin-bottom: 10px;
+}
+.pressed-button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 20px;
+  background-image: linear-gradient(DeepSkyBlue 0%, skyblue 50%, darkcyan 100%);
+  background-position: 100% 0;
+  background-size: 150% 150%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  color: white;
+  box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
+  transition: .3s;
+}
+.pressed-button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 40, 120, .35);
+  background-position: 0 0;
+}
+.servis {
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   font-size: 25px;
+   width: 100%;
+   text-align: center;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.servis div {
+   min-width: 30%;
+   margin: 20px;
+}
+.doverie {
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   font-size: 25px;
+   width: 100%;
+   text-align: center;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.doverie div {
+   min-width: 1%;
+   margin-left: -40px;
+}
+hr {
+	background-color: cyan;
+	height: 1px;
+}
+.skid {
+	background-color: seashell;
+	display: flex;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+.foot{
+   background-color:rgb(75, 88, 95);
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:20px;
+   text-align: center;
+   margin-top: 10px;
+   border: none;
+   position: absolute;
+   width: 100%;
+   font-size: 24px;
+ }
+ .foot a{
+	color: white;
+	text-decoration: none;
+ }
+ .foot a:hover{
+	color: skyblue;
+	margin-top: 0;
+ }
+.billet1 {
+	background-color: palegoldenrod;
+	width: 90%;
+	display: flex;
+	border-radius: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 10px; 
+}
+.billet1 div {
+	display: flex;
+	width: 20%;
+	align-items: center;
+	margin: 10px;
+}
+.bb {
+	display: flex;
+}
+.brong {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	width: 20%;
+}
+.cena {
+	display: flex;
+}
+.seat {
+	background-color: powderblue;
+	border-radius: 80px;
+	width: 53%;
+	margin-top: 150px;
+	height: 270px;
+}
+.seat input {
+	width: 40px;
+	align-items: center;	
+}
+.mesto {
+	height: 510px;
+	margin-left: 10px;
+	border-radius: 40px;
+	width: 98%;
+	background-color: lightcyan;
+	position: absolute;
+}
+.mes div {
+	margin-top: 50px;
+	margin-left: 20px;
+}
